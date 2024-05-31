@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Marco Moscatelli
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1st April 1993
     - name: Languages
-      value: English, German
+      value: Italian, English, French
 
 - title: Education
   type: time_table
