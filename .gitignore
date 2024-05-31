@@ -1,4 +1,7 @@
 _site
+_draftFolders
+_draftsGeneral
+_draftsPages
 .bundle
 .sass-cache
 .jekyll-cache
