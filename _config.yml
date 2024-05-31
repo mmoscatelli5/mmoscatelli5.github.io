@@ -7,9 +7,9 @@ first_name: Marco
 middle_name: 
 last_name: Moscatelli
 email: marco.moscatelli@polimi.it
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+# description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
+# footer_text: >
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
@@ -93,7 +93,7 @@ osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
-research_gate_profile: https://www.researchgate.net/profile/Marco-Moscatelli # your profile on ResearchGate
+research_gate_profile: Marco-Moscatelli # your profile on ResearchGate
 scholar_userid: PiaANS8AAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
@@ -159,7 +159,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: mmoscatelli # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -237,7 +237,9 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _drafts/
+  - _draftsPages/
+  - _draftsGeneral/
+  - _draftsFolders/
   - _posts/
   - _news/
   - _projects/
@@ -308,11 +310,20 @@ scholar:
   last_name: [Moscatelli]
   first_name: [Marco]
 
-  style: apa
+  style: apa-numeric-superscript-brackets
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
+  # If you have more complex requirements, it quickly becomes tedious 
+  # to have the template inside the configuration; for this reason, 
+  # you can also put the bibliography template into your layouts directory. 
+  # Jekyll-Scholar will load this template if the option set in your 
+  # configuration matches an existing layout (without the file extension). 
+  # That is to say, if you set as bibliography template bib.
+  # If you want to use a different template (and style), then use {{reference}}
+  # or follow the instructions here https://github.com/inukshuk/jekyll-scholar 
+  # under bibliography template
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -325,39 +336,42 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
-  query: "@*" # delete @ from entries in.bib file to hide entries
-  group_by: year
-  group_order: descending
+  query: "@*" # delete @ from entries in .bib file to hide entries
+  group_by: type
+  # group_order: ascending
+  type_order: [article,thesis,book]
+  sort_by: year,month
+  order: descending,descending
+  # type_names: { article: Papers }
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
-  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  altmetric: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: false # Dimensions badge (https://badge.dimensions.ai/)
+  bibtex_show: true
+  html: false
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords:
-  [
-    abbr,
-    abstract,
-    additional_info,
-    altmetric,
-    arxiv,
-    award,
-    award_name,
-    bibtex_show,
-    blog,
-    code,
-    html,
-    pdf,
-    poster,
-    preview,
-    selected,
-    slides,
-    supp,
-    video,
-    website,
-  ]
+# filtered_bibtex_keywords:
+#   [
+#     abbr,
+#     abstract,
+#     additional_info,
+#     altmetric,
+#     arxiv,
+#     award,
+#     award_name,
+#     blog,
+#     code,
+#     pdf,
+#     poster,
+#     preview,
+#     selected,
+#     slides,
+#     supp,
+#     video,
+#     website,
+#   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3 # leave blank to always show all authors
