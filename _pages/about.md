@@ -9,9 +9,11 @@ profile:
   image: MySelf.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Politecnico di Milano</p>
-    <p>Piazza Leonardo da Vinci 32</p>
-    <p>20133 Milan, Italy</p>
+    <p>Institut d'Alembert</p>
+    <p>Sorbonne Université</p>
+    <p>4 Place Jussieu</p>
+    <p>Case 162, Tour 55-65</p>
+    <p>75252 Paris Cedex 05, France</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of posts items
@@ -25,10 +27,10 @@ social: true # includes social icons at the bottom of the page
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am PostDoctoral researcher at the [Departement of Civil and Environemental Engineering](https://www.dica.polimi.it/) of the [Politecnico di Milano](https://www.polimi.it/).
+My name is Marco Moscatelli. I am currently working as assistant professor (maître de conférences) in the [MISES group](http://www.dalembert.upmc.fr/mises/index.php) of the [Insitut Jean le Rond d'Alembert](http://www.dalembert.upmc.fr/ijlrda/) at [Sorbonne University](https://www.sorbonne-universite.fr/).
 
-I focus my efforts in the understanding and modelling of phenomena related to both *theoretical and
+I focus my efforts in the understanding and modelling of phenomena related to *theoretical and
 applied mechanics*. My research interests mainly include *slender structures*, *periodic homogenization*, *constitutive modelling*, and *computational mechanics*.
 
-On one hand I aspire to answer fundamental problems related to the mechanical behaviour of architectured and heterogeneous materials that may offer novel or unexpected global responses, such as wave attenuation and wave guiding capabilities or localization phenomena. 
-On the other hand, I also look for solutions to more practical problems questioned by industrial collaborators.
+I aspire to answer fundamental problems related to the mechanical behaviour of *architectured and heterogeneous materials* that may offer novel or unexpected global responses, such as *wave attenuation* and *wave guiding* capabilities or *localization phenomena*. 
+I also look for solutions to more practical problems questioned by industrial collaborators. Currently, I am working with [Pirelli Tyre Spa](https://www.pirelli.com/tyres/en-ww/car/homepage).
