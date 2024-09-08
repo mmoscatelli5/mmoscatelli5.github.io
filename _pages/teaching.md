@@ -8,6 +8,7 @@ nav_order: 6
 ---
 
 At [Sorbonne University](https://www.sorbonne-universite.fr/), I currently teach :
+* LU2ME001 - Mécanique des solides rigides
 * LU3ME103 - Vibrations, équilibre et stabilité
 * Mécanique des Milieux Continus 
 

@@ -30,7 +30,8 @@ social: true # includes social icons at the bottom of the page
 My name is Marco Moscatelli. I am currently working as assistant professor (maître de conférences) in the [MISES group](http://www.dalembert.upmc.fr/mises/index.php) of the [Insitut Jean le Rond d'Alembert](http://www.dalembert.upmc.fr/ijlrda/) at [Sorbonne University](https://www.sorbonne-universite.fr/).
 
 I focus my efforts in the understanding and modelling of phenomena related to *theoretical and
-applied mechanics*. My research interests mainly include *slender structures*, *periodic homogenization*, *constitutive modelling*, and *computational mechanics*.
+applied mechanics*. My research interests mainly include *computational mechanics*, *homogenization techniques*, *constitutive modelling*, and *slender structures*.
 
 I aspire to answer fundamental problems related to the mechanical behaviour of *architectured and heterogeneous materials* that may offer novel or unexpected global responses, such as *wave attenuation* and *wave guiding* capabilities or *localization phenomena*. 
-I also look for solutions to more practical problems questioned by industrial collaborators. Currently, I am working with [Pirelli Tyre Spa](https://www.pirelli.com/tyres/en-ww/car/homepage).
+<!--I also look for solutions to more practical problems questioned by industrial collaborators. 
+ I am currently collaborating with [Pirelli Tyre Spa](https://www.pirelli.com/tyres/en-ww/car/homepage). -->

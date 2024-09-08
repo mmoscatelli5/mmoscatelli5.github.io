@@ -38,7 +38,7 @@ exploited for energy harvesting applications. However, vibrations are generally 
 
 ### Quasi-periodic structures
 
-Structural lattices with quasi-periodic pattern possess interesting dynamic features that can be exploited to control, localize and redirect propagating waves.
+Structural lattices with quasi-periodic pattern possess interesting dynamic features that can be exploited to control, localize and redirect propagating waves. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
