@@ -12,7 +12,7 @@ I am interested in wave propagation phenomena and computational mechanics.
 
 For a complete list of publications, see my [publications list](/publications/).
 
-### Metamaterials
+### Periodic Metamaterials
 
 My work deals with problems of wave diffraction in periodic domains with or without the presence
 of a compact perturbation. Specifically, I am interested in the propagation of classical (mechanical
@@ -36,9 +36,12 @@ exploited for energy harvesting applications. However, vibrations are generally 
     (left) Sketch of a periodic heterogeneous metamaterial with a compact defect. (right) A 1D system composed of a cable pre-tensioned by a force \( H_{eq} \), with periodically distributed point-wise masses \( M \) hanging through elastic springs of stiffness \( k \).
 </div>
 
-### Quasi-periodic structures
+### Quasi-Periodic Metamaterials
 
-Structural lattices with quasi-periodic pattern possess interesting dynamic features that can be exploited to control, localize and redirect propagating waves. 
+Over the past few decades, spatial periodicity has been used to develop lattice-like materials with wave controlling abilities. This led to the advent of periodic metamaterials. More recently, quasi-periodic metamaterials have shown to offer a promising alternative to traditional periodic designs.
+First introduced in the context of crystallography, quasi-periodicity allows for complex arrangements that can support the formation of unconventional band structures and dynamic localization effects.
+In this context, structural lattices with quasi-periodic pattern possess interesting dynamic features that can be exploited to control, localize and redirect propagating waves.
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -52,12 +55,11 @@ Structural lattices with quasi-periodic pattern possess interesting dynamic feat
     (left) A quasiperiodic structure composed of two-bars connected by beams \( i \) with quasi-periodic distribution. (right) The computed spectrum (the green regions are theoretical predictions of band-gaps).
 </div>
 
-### Mechanical behavior of yarns and cords
+### Mechanical Behavior of Yarns and Cords
 
 Polymeric yarns and cords are made up of hundreds of textile filaments (or fibres) twisted together.
 Typically, yarns (of the same or different filament materials) are twisted together to form cords, also known as multi-ply yarns.
-hese 1D structural elements possess high flexural flexibility while having high stiffness
-and strength in the longitudinal direction.
+These 1D structural elements possess high flexural flexibility while having high stiffness and strength in the longitudinal direction.
 Different scales are involved (see figure 3). The project positions itself at a mesoscopic scale and aims at developing a global three-dimensional model that, starting from the material behaviour at the level of the fibres, and including material inelastic effects together with geometric effects, can effectively predict the behaviour of yarns and cords in different stress conditions.
 This work is financed by [Pirelli Tyre Spa](https://www.pirelli.com/tyres/en-ww/car/homepage).
 
